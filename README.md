@@ -60,7 +60,7 @@ The site is optimized for:
 
 ## 📂 Folder Structure
 ```bash
-portfolio-website/
+Stephanie's portofolio/
 │
 ├── index.html
 ├── style.css
@@ -91,4 +91,5 @@ portfolio-website/
 
 ## 📸 Screenshot on Website design created in Figma or Canva.
 <img width="277" height="862" alt="image" src="https://github.com/user-attachments/assets/82e0e79b-dc9d-49c8-a8b4-323137c0b1ce" />
+
 
