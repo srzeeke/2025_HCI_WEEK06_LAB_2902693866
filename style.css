@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+header {
+    background-color: #5d4a4a;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* ABOUT SECTION */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.about-text h2 {
+    margin-bottom: 1rem;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* EXPERIENCE */
+.experience {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.experience-img {
+    max-width: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+/* PROJECTS */
+.projects {
+    background-color: white;
+    padding: 3rem 2rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* OTHER EXPERIENCE */
+.other-experience {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.other-experience h2 {
+    margin-bottom: 2rem;
+}
+
+.other-exp-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.other-exp-list {
+    flex: 1;
+    min-width: 250px;
+}
+
+.other-exp-list h4 {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.other-exp-list p {
+    margin-bottom: 1rem;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.other-exp-image {
+    flex: 1;
+    text-align: right;
+}
+
+.other-exp-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Contact section */
+.contact {
+    background-color: white;
+    text-align: left;
+    padding: 3rem 2rem;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Footer bar */
+.footer-bar {
+    background-color: #5d4a4a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.footer-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive  */
+@media (max-width: 768px) {
+    .other-exp-container {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .other-exp-image {
+    text-align: center;
+    }
+
+    .contact {
+    text-align: center;
+    }
+}
